@@ -10,11 +10,19 @@
 
   </p>
   
- [![Issues][issues-shield]][issues-url] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![MIT License][license-shield]][license-url]
- 
+<!--   
+[<h1 align='center'>
+	[![Issues][issues-shield]][issues-url]
+	[![MIT License][license-shield]][license-url]
+</h1> -->
+
+<div align="center">
+
+  <a href="">![Issues][issues-shield]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="">![MIT License][license-shield]</a>
+	
+</div>
   
-
-
 
 ## Table of contents
 
