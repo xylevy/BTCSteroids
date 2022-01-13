@@ -10,8 +10,7 @@
 
   </p>
   
- [![Issues][issues-shield]][issues-url]
- [![MIT License][license-shield]][license-url]
+ [![Issues][issues-shield]][issues-url] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![MIT License][license-shield]][license-url]
  
   
 
