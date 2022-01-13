@@ -89,7 +89,7 @@ A thing to note is that you may need to update node addresses in ```electrum_x.g
 This is a project I picked up while learning Go Programming and was inspired by [this repo](https://github.com/ashishbhate/hammer). Golang is fast and I have an interest in blockchain technologies.
 - This program can be used to watch a list of addresses, check ```sample_addresses.go``` 
 - You can a worker that checks against local DB/TSV/CSV file of addresses with balance using bloom filters. Check ```bloom_flayer.go```. To improve efficacy, we can further check the results with one of the other workers to weed out false-positives.
-** As you  can tell by now, this worker is more geared more towards "bitcoin-cracking" (I mean, it is pointless and inefficient to use this to check balances or watch bitcoin wallets) ** 
+*As you  can tell by now, this worker is more geared more towards "bitcoin-cracking" (I mean, it is pointless and inefficient to use this to check balances or watch bitcoin wallets)* 
 - Both the above use cases can be chained with an address generator using worlists,random generation or whatever means, modifying the program so as to use stdin or reading the addresses from a file.
 
 NOTE: The local implementation used to serve the database of addresses with balances using bloom filters has been removed from this version*/
@@ -117,7 +117,8 @@ Icons made by Freepik from [Flaticon](https://www.flaticon.com)
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2022 the authors. Code released under the [MIT License](https://github.com/xylevy/BTCSteroids/blob/master/LICENSE).
+Code and documentation copyright 2021-2022 the authors.
+Code released under the [MIT License](https://github.com/xylevy/BTCSteroids/blob/master/LICENSE).
 
 [issues-shield]: https://img.shields.io/github/issues/xylevy/BTCSteroids.svg?style=for-the-badge
 [issues-url]: https://github.com/xylevy/BTCSteroids/issues
