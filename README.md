@@ -18,8 +18,8 @@
 
 <div align="center">
 
-  <a href="">![Issues][issues-shield]&nbsp;&nbsp;&nbsp;&nbsp;</a>
-  <a href="">![MIT License][license-shield]</a>
+  <a href="">[![Issues][issues-shield]][issues-url]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="">[![MIT License][license-shield]][license-url]&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	
 </div>
   
