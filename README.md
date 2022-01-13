@@ -122,5 +122,5 @@ Code released under the [MIT License](https://github.com/xylevy/BTCSteroids/blob
 
 [issues-shield]: https://img.shields.io/github/issues/xylevy/BTCSteroids.svg?style=for-the-badge
 [issues-url]: https://github.com/xylevy/BTCSteroids/issues
-[license-shield]: https://img.shields.io/github/license/xylevy/BTCSteroids.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
 [license-url]: https://github.com/xylevy/BTCSteroids/blob/master/LICENSE
