@@ -86,7 +86,7 @@ A thing to note is that you may need to update node addresses in ```electrum_x.g
 
 
 ## Use cases
-This is a project I picked up while learning Go Programming and was inspired by https://github.com/ashishbhate/hammer. Golang is fast and I have an interest in blockchain technologies.
+This is a project I picked up while learning Go Programming and was inspired by [this repo](https://github.com/ashishbhate/hammer). Golang is fast and I have an interest in blockchain technologies.
 - This program can be used to watch a list of addresses, check ```sample_addresses.go``` 
 - You can a worker that checks against local DB/TSV/CSV file of addresses with balance using bloom filters. Check ```bloom_flayer.go```. To improve efficacy, we can further check the results with one of the other workers to weed out false-positives.
 ** As you  can tell by now, this worker is more geared more towards "bitcoin-cracking" (I mean, it is pointless and inefficient to use this to check balances or watch bitcoin wallets) ** 
