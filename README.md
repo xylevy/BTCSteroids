@@ -82,7 +82,7 @@ BTCSteroids/
 	 └── workers.go
 ```
 This project includes some workers that use APIs, go-electrum to check the given addresses against nodes and a local checker using bloom filters. The Blockonomics worker  needs an API Key. Add it/change in the file ```blockonomics_co.go```.
-A thing to note is that you may need to update node addresses in ```electrum_x.go```
+Another thing to note is that you may need to update node addresses in ```electrum_x.go```
 
 
 ## Use cases
@@ -90,9 +90,9 @@ This is a project I picked up while learning Go Programming and was inspired by 
 - This program can be used to watch a list of addresses, check ```sample_addresses.go``` 
 - You can a worker that checks against local DB/TSV/CSV file of addresses with balance using bloom filters. Check ```bloom_flayer.go```. To improve efficacy, we can further check the results with one of the other workers to weed out false-positives.
 *As you  can tell by now, this worker is more geared more towards "bitcoin-cracking" (I mean, it is pointless and inefficient to use this to check balances or watch bitcoin wallets)* 
-- Both the above use cases can be chained with an address generator using worlists,random generation or whatever means, modifying the program so as to use stdin or reading the addresses from a file.
+- Both the above use cases can be chained with an address generator using worlists,random generation or whatever means, modifying the program so as to use stdin or read the addresses from a file.
 
-NOTE: The local implementation used to serve the database of addresses with balances using bloom filters has been removed from this version*/
+NOTE: The local implementation used to serve the database of addresses with balances using bloom filters has been removed from this version
 
 ### Attribution
 
